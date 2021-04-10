@@ -30,3 +30,7 @@ CLOUDANT_USERNAME="ADD CLOUDANTDB USERNAME"
 CLOUDANT_PASSWORD="ADD CLOUDANTDB PASSWORD"
 CLOUDANT_API_KEY="ADD CLOUDANTDB API KEY"
 ```
+## Using Node-RED with Watson Speech to Text
+## Flask Application
+For this section, you can check out the steps and resources in this <a href="https://github.com/Call-for-Code/cfc-covid-19-video-transcriber">GitHub repository</a>. This is another example of building video transcriber.
+![image](https://user-images.githubusercontent.com/36239840/114268661-3ccc2500-9a13-11eb-8aa3-68363b136976.png)
