@@ -20,3 +20,13 @@ curl -X GET -u "apikey:{apikey}" "{url}/v1/models/en-US_BroadbandModel"
 ```
 curl -X POST -u "apikey:{apikey}" --header "Content-Type: audio/flac" --data-binary @audio-file2.flac "{url}/v1/recognize?word_alternatives_threshold=0.9&keywords=colorado%2Ctornado%2Ctornadoes&keywords_threshold=0.5"
 ```
+## Add environment variables
+Create a ```config.py``` file and add the following lines of code, replace with your own credentials.
+```
+STT_API_KEY="<ADD YOUR STT API KEY HERE"
+STT_URL="ADD STT ENDPOINT URL"
+CLOUDANT_URL="ADD CLOUDANTDB URL"
+CLOUDANT_USERNAME="ADD CLOUDANTDB USERNAME"
+CLOUDANT_PASSWORD="ADD CLOUDANTDB PASSWORD"
+CLOUDANT_API_KEY="ADD CLOUDANTDB API KEY"
+```
